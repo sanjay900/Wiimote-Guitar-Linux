@@ -18,7 +18,7 @@ echo "Patching"
 patch -p1 -i ../patch.diff
 echo "Building wiimote lib"
 make M=drivers/hid
-sudo mkdir -[ /usr/lib/modules/`uname -r`/updates
+sudo mkdir -p /usr/lib/modules/`uname -r`/updates
 sudo cp drivers/hid/hid-wiimote.ko /usr/lib/modules/`uname -r`/updates/hid-wiimote.ko
 sudo depmod
 sudo modprobe -r hid-wiimote
