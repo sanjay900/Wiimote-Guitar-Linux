@@ -1,8 +1,2 @@
 # Wiimote-Guitar-Linux
-Backport the guitar fixes from a previous linux kernel, that were removed because they were submitted alongside drums.
-
-- https://github.com/torvalds/linux/commit/8e22ecb603c88b7397ab2e80b7b0811b8a1318f5
-- https://github.com/torvalds/linux/commit/b04c99e3b845892d754ee8052d6324c39c4040de
-
-NOTE: 
-This is not guranteed to work. Usage of this script is at your own risk.
+Note: This is no longer needed. The original patches were accepted into the linux kernel a while ago, as https://github.com/torvalds/linux/commit/d4bdf2d2ba737c2c02ec014bdc2db40a030595d0#diff-c30d8507e95236e421d7810d06aaeb2d, and so we do not need to manually patch anymore.
